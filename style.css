@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 1000rem;
+    overflow-x: hidden;
+}
+
+.container {
+    min-width: 450px;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+@media (max-width: 450px) {
+    body {
+        width: 400px;
+    }
+
+    .container {
+        background-color: aqua;
+        width: 375px;
+    }
+}
